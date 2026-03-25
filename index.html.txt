@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Water Infrastructure</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="overlay"></div>
+  <div class="content">
+    <h1>Water Infrastructure for AI</h1>
+    <p>The Water Layer of AI Infrastructure</p>
+  </div>
+</section>
+
+<!-- STATEMENT -->
+<section class="section fade">
+  <h2>Water is the Next Constraint</h2>
+  <p>AI infrastructure cannot scale without water systems</p>
+</section>
+
+<!-- SYSTEM FLOW -->
+<section class="section dark">
+  <div class="flow">
+    <div class="node">Source</div>
+    <div class="line"></div>
+    <div class="node">Membrane</div>
+    <div class="line"></div>
+    <div class="node">Recovery</div>
+    <div class="line"></div>
+    <div class="node">Cooling</div>
+  </div>
+</section>
+
+<!-- METRICS -->
+<section class="section metrics">
+  <div class="metric">
+    <span data-target="95">0</span>%
+    <p>Recovery</p>
+  </div>
+  <div class="metric">
+    <span data-target="50">0</span>%
+    <p>Water Reduction</p>
+  </div>
+  <div class="metric">
+    <span data-target="3">0</span>
+    <p>RMB / m³</p>
+  </div>
+</section>
+
+<!-- MODULES -->
+<section class="section dark">
+  <h2>Modular Infrastructure</h2>
+  <div class="modules">
+    <div class="module">Source Module</div>
+    <div class="module">Membrane Core</div>
+    <div class="module">Optimization</div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+  <h2>Build Water-Independent Systems</h2>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
