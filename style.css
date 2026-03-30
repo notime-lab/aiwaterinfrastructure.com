@@ -129,3 +129,24 @@ body {
 .nav-links a:hover {
   color: white;
 }
+.hero.small {
+  height: 60vh;
+}
+
+/* 页面节奏 */
+.section {
+  padding: 120px 20px;
+  text-align: center;
+}
+
+/* 动画 */
+.fade {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 1s;
+}
+
+.fade.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
