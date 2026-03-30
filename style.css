@@ -101,3 +101,31 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: rgba(0,0,0,0.7);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  color: #aaa;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: white;
+}
